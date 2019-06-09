@@ -1,0 +1,206 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}a{margin:0; padding:0; text-decoration:none;}
+
+@font-face {
+	font-family: 'rounded_eleganceregular';
+	src: url('../fonts/rounded_elegance-normalfont.eot');
+	src: url('../fonts/rounded_elegance-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/rounded_elegance-webfont.woff2') format('woff2'),
+	     url('../fonts/rounded_elegance-webfont.woff') format('woff'),
+	     url('../fonts/rounded_elegance-webfont.ttf') format('truetype'),
+	     url('../fonts/rounded_elegance-webfont.svg#rounded_eleganceregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'rounded_eleganceregular'
+}
+
+/* SECTION PRESENTATION*/
+	#presentation{ 
+		height: 100%;
+		width: 100%;
+		position: relative;
+		background: black url('../images/presentation-bg-1.jpeg') no-repeat 0 0;
+		background-attachment: fixed;
+		background-size: cover;
+		
+	}
+
+	h1 {
+		width: 100%;
+		font-size: 40px;
+		box-sizing: border-box;
+		text-transform: bold;
+		color: black;
+		padding: 0;
+	}
+
+	h6 {
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px 0 20px 0;
+		box-sizing: border-box;
+		font-size: 24px;
+		color: black;
+		padding: 0;
+	}
+
+	h3{
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px 0 20px 0;
+		box-sizing: border-box;
+		font-size: 24px;
+	}
+
+	br{
+	clear: both;
+	}
+
+/* SECTION HOME*/
+	#home{
+		width: 100%;
+		height: 70%;
+		background-color: #cacaca;
+	}
+
+	.main-btn{
+
+	}
+
+/* MENU */
+	nav{
+		height: 100px;
+		border-bottom: 1px solid #cacaca;
+		background-color: #fff;
+		position: relative;
+	}
+
+	nav.fixed{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	nav li{
+		float: left;
+		height: 100px;
+		line-height: 100px;
+		font-family: 'rounded_eleganceregular';
+		width: 100px;
+		width: 100px;
+		font-size: 18px;
+		color: #00141e;
+		transition: all .3s ease 0s;
+		text-align: center;
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+	nav ul{
+		width: 1000px;
+		float:left;
+		position: absolute;
+		left: 50%;
+		margin-left: -460px;
+	}
+
+	nav li#menu-logo{
+		height: 100px;
+		width: 200px;
+		background-color: black;
+	}
+
+	nav li a{
+		color: #00141e;
+		height: 100%;
+		width: 100%;
+		display: block;
+		padding: 0 30px;
+		box-sizing: border-box;
+	}
+
+	nav li:nth-child(5) {
+		padding: none;
+	}
+
+	/* ABOUT */
+
+	#about{
+		width: 100%;
+	}
+	
+	#about h2{
+		width: 100%;
+		font-size: 40px;
+		box-sizing: border-box;
+		text-transform: bold;
+		color: black;
+		text-align: center;
+		padding: 3% 0px 3% 0;
+	}
+
+	#about.fixed{
+		margin-top: 100px;
+	}
+
+	#about-wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	#about-wrapper p{
+		width: 48%;
+		text-align: justify;
+		line-height: 22px;
+	}
+
+	#about-wrapper p:first-child{
+		float: left;
+	}
+	#about-wrapper p.right{
+		float: right;
+		text-align: center;
+	}
+
+	.image-about{
+		width: 25%;
+		height: 25%;
+	}
+
+	#values-wrapper{
+		width: 100%;
+		padding: 0 10%;
+		box-sizing:border-box;
+		margin-top:80px;
+		background-color: #efefef;
+	}
+
+	#values-wrapper > div{
+		width: 33%;
+		float: left;
+	}
+
+	.values-icon{
+		width: 100%;
+		font-size: 40px;
+		font-family: 'ionicons';
+		text-align: center;
+		height: 60px;
+		line-height: 60px;
+		margin-top: 25px;
+		color: #00AAE6;
+	}
+
+	#values-wrapper > div > p {
+		width: 70%;
+		margin: 0 auto;
+		text-align: justify;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
