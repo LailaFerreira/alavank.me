@@ -6,12 +6,20 @@
 
 	<link rel="stylesheet" href="statics/css/index.css">
 	<link rel="stylesheet" href="statics/css/ionicons.min.css">
+	<link rel="stylesheet" href="statics/css/slick.css">
+	<link rel="stylesheet" href="statics/css/slick-theme.css">
 
 	
+
 </head>
 <body>
 	<section id="presentation" >
-		<div class="row presentation-content">
+		<header class="header-presentation">
+			<div class="header-logo">
+				<p><span class="header-logo-white">Alavank</span><span class="header-logo-red">.</span><span class="header-logo-white">me</span></p>
+			</div>
+		</header>
+		<div class="presentation-content">
 			<div>
 				<h3>Bem-vindo ao Alavank</h3>
 			</div>
@@ -23,16 +31,18 @@
 					digital experiences.
 				</h1>
 			</div>
+			
+
 			<div>
 				<ul class="presentation-social">
 					<li>
-						<a href="#0"><i class="ion-social-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+						<a href="#0"><i class="ion-social-facebook" id="icon-facebook" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#0"><i class="ion-social-instagram" aria-hidden="true"></i><span>Twiiter</span></a>
+						<a href="#0"><i class="ion-social-instagram" id="icon-instagram" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#0"><i class="ion-social-linkedin" aria-hidden="true"></i><span>Instagram</span></a>
+						<a href="#0"><i class="ion-social-linkedin" id="icon-linkedin" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -46,8 +56,8 @@
 	</section>
 	
 	<nav>
+		<img class="logo" src="./statics/images/menu-logo.png">
 		<ul>
-			
 			<li><a data-section="#about" href="#">Sobre</a></li>
 			<li><a data-section="#services" href="#">Serviços</a></li>
 			<li><a data-section="#partners" href="#">Parceiros</a></li>
@@ -55,32 +65,90 @@
 		</ul>
 	</nav>
 
-	<section id="home">
-		<div class="caroussel">
-			
+	<!-- CARROSSEL VERTICAL -->
+
+	<section id="carrossel">
+		
+		<div class="thing" id="wrapper">
+			<div><img src="statics/images/img1.jpg" class="img-carousel"></div>
+			<div><img src="statics/images/img2.jpg" class="img-carousel"></div>
+			<div><img src="statics/images/img3.jpg" class="img-carousel"></div>
+			<div><img src="statics/images/img4.jpg" class="img-carousel"></div>
+			<div><img src="statics/images/img5.jpg" class="img-carousel"></div>
 		</div>
 	</section>
+
+  <!-- FIM CARROSSEL -->
 
 	<!-- SECTION ABOUT -->
 
 	<section id="about">
-		<h2>Quem somos</h2>
-		<div id="about-wrapper">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae vulputate nisi. Nam ac elementum lectus,
-				sed pharetra nisl. Aliquam pharetra ultrices arcu id fringilla. Suspendisse diam ante, accumsan non massa nec,
-				ullamcorper porttitor felis. Praesent ac purus nisi. Maecenas luctus risus leo, ut lobortis dolor elementum et. 
-				Pellentesque id consectetur libero, sit amet euismod nulla. Integer consectetur libero elit, eget auctor nulla vehicula a.
-				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-			</p>
-			<p class="right">
-			 	<img src="statics/images/company.png" alt="Alavank" class="image-about" />
-			</p>
-			<br/>
+
+		<div class="about-wrapper">
+			<h3 class="subhead light-red">Olá, somos a Alavank</h3>
+			<h2 class="subhead-text">Um pouco sobre nós</h2>
+			
+			<hr class="row">
+
+			<p class="text-centralized">Nosso foco é estar junto aos nossos clientes, desenvolvendo e apoiando seus projetos e investimentos, sempre buscando recursos e soluções apropriadas às suas necessidades. A Alavank oferece serviços e soluções focados em melhorar os resultados de pequenas e médias empresas.
+			Nossa especialidade? Analisar dados e desenvolver e implantar estratégias de crescimento. </p>
+
+			<hr class="row-vertical">
+
+		</div> 
+
+		<div class="about-wrapper solucoes-wrapper"> 
+			<h3 class="second-subhead light-yellow">Nossas soluções</h3>
+			<h2 class="subhead-text second-subhead-text">Temos tudo o que você precisa para lançar e expandir seus negócios.</h2>
+			
+			<hr class="row">
+
+			<p class="text-centralized">Nosso foco é promover a excelência para geração de resultados avaliando o desempenho o tempo todo.
+			Conheça agora mesmo as soluções que podemos oferecer para sua empresa. Além disso, confira nossos materiais gratuitos e posts periódicos que podem auxiliar você.</p>
+
+			<div id="solutions-wrapper">
+				<div>
+					<div class="solutions-icon ion-briefcase"></div>
+					<h3 class="solution-title">Desenvolvimento de plano de negócios</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in eros vel est sagittis mattis ac at est.
+						Vestibulum porttitor elit nec lectus tristique suscipit sed non diam. Proin iaculis tortor vitae condimentum euismod.
+						Vivamus eu magna nulla. Donec vitae libero volutpat tellus efficitur ornare a sit amet ipsum.
+					</p>
+				</div>
+				<div>
+					<div class="solutions-icon ion-cash"></div>
+					<h3 class="solution-title">Acessoria em marketing</h3>
+					<p>
+						Fusce iaculis, metus pulvinar accumsan placerat, metus neque dictum libero, id maximus ligula ipsum in libero.
+						Donec gravida non ipsum sit amet mattis. Pellentesque fermentum, nulla nec feugiat gravida, ante magna vestibulum diam, a vestibulum ante nibh non arcu. 
+					</p>
+				</div>
+				<div>
+					<div class="solutions-icon ion-chatboxes"></div>
+					<h3 class="solution-title">Acessoria em gestão de pessoas</h3>
+					<p>
+						Vestibulum eu ullamcorper enim. Aliquam iaculis elit dolor, ut rutrum eros vestibulum id.
+						Maecenas dictum, risus vitae consectetur ornare, magna justo rutrum nisl, vitae ultricies ligula mauris vitae orci. 
+					</p>
+				</div>
+				<br/>
+			</div>
 		</div>
 
-		<!-- SECTION VALUES -->
 
+		<!-- 	<div class="polygon">
+		<h1>Quem somos</h1>
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
+		    <polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,101" />
+		  </svg>
+		</div> -->
+
+	</section>
+
+		<!-- SECTION VALUES -->
+		<section id="values">
 		<div id="values-wrapper">
 			<div>
 				<div class="values-icon ion-paper-airplane"></div>
@@ -141,7 +209,7 @@
 
 				<div class="services-row4">
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço A</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -149,7 +217,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço B</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -157,7 +225,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço C</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -165,7 +233,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço D</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -175,7 +243,7 @@
 					<br />
 				</div><br><div class="services-row4">
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço A</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -183,7 +251,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço B</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -191,7 +259,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço C</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -199,7 +267,7 @@
 						</div>
 					</div>
 					<div class="services-container">
-						<div class="services-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="services-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="services-name">Serviço D</div>
 						<div class="services-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -209,7 +277,6 @@
 					<br />
 				</div><br>
 			</section>
-			
 			
 
 			<!-- SECTION PROJECTS -->
@@ -221,7 +288,7 @@
 				</div>
 				<div class="projects-row3">
 					<div class="project-container">
-						<div class="projects-image"><img src="statics/images/projeto1.jpg" /></div>
+						<div class="projects-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="projects-name">Mercedes Benz</div>
 						<div class="projects-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -229,7 +296,7 @@
 						</div>
 					</div>
 					<div class="project-container">
-						<div class="projects-image"><img src="statics/images/projeto2.png" /></div>
+						<div class="projects-image"><img src="statics/imagesimg1.png" /></div>
 						<div class="projects-name">Arcelor Mittal</div>
 						<div class="projects-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -237,7 +304,7 @@
 						</div>
 					</div>
 					<div class="project-container">
-						<div class="projects-image"><img src="statics/images/projeto3.jpg" /></div>
+						<div class="projects-image"><img src="statics/images/img1.jpg" /></div>
 						<div class="projects-name">MRS</div>
 						<div class="projects-desc">
 							Pellentesque molestie eleifend mauris vitae tincidunt. Vivamus dui justo, tempus in tempus non, fermentum tristique purus. 
@@ -262,8 +329,9 @@
 				</div>
 			</section>
 
-		<!--
-			<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-		</section>-->
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="statics/js/slick.js" type="text/javascript"></script>
+		<script src="statics/js/index.js" type="text/javascript"></script>
 </body>
 </html>
