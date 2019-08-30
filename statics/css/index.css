@@ -403,8 +403,9 @@ html, body{
 	nav{
 		height: 100px;
 		border-bottom: 1px solid #cacaca;
-		background-color: black;
+		background-color: #fff;
 		position: relative;
+		box-shadow: 0 4px 5px -3px #ececec;
 	}
 
 	nav.fixed{
@@ -418,7 +419,7 @@ html, body{
 		float: left;
 		height: 100px;
 		line-height: 100px;
-		font-family: 'rounded_eleganceregular';
+		font-family: 'rounded_eleganceregular'
 		width: 100px;
 		width: 100px;
 		font-size: 18px;
@@ -429,8 +430,10 @@ html, body{
 		font-size: 16px;
 	}
 
+
 	nav ul{
-		width: 1000px;
+		width: 1000
+		px;
 		float:left;
 		position: absolute;
 		left: 50%;
@@ -440,7 +443,7 @@ html, body{
 	nav li#menu-logo{
 		height: 100px;
 		width: 200px;
-		background-color: black;
+		background: url('../images/medium-logo.png') no-repeat 50% 50%;
 	}
 
 	nav li a{
