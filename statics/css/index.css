@@ -406,6 +406,7 @@ html, body{
 		background-color: #fff;
 		position: relative;
 		box-shadow: 0 4px 5px -3px #ececec;
+		z-index: 999999999;
 	}
 
 	nav.fixed{
