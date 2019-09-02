@@ -10,6 +10,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	     url('../fonts/rounded_elegance-webfont.svg#rounded_eleganceregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
+
+	
+}
+
+@font-face{
+	font-family: 'artely';
+	src: url('../fonts/artelyinks_personal_use-webfont.woff2') format('woff2'),
+	     url('../fonts/artelyinks_personal_use-webfont.woff') format('woff'),
+	     url('../fonts/ArtelyInks_PERSONAL_US.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 html, body{
@@ -170,8 +181,13 @@ html, body{
 	/*LINHA VERTICAL*/
 	.row-vertical{
 	    transform: rotate(90deg);
-	    width: 84px;
+	    width: 58px;
 	    height: 1px;
+	}
+
+	.inter{
+		width: 9%;
+    	margin-top: 13%;
 	}
 	/*FIM LINHA*/
 
@@ -444,7 +460,7 @@ html, body{
 	nav li#menu-logo{
 		height: 100px;
 		width: 200px;
-		background: url('../images/medium-logo.png') no-repeat 50% 50%;
+		background: url('../images/mini.png') no-repeat 50% 50%;
 	}
 
 	nav li a{
@@ -467,10 +483,24 @@ html, body{
 	    margin-top: 6%;
 	    height: auto;
 	    margin-bottom: 6%;
-	    
+	    /*background: url('../images/hello.jpg') no-repeat 50% 50%;*/
 	    background-color: white;
 	    color: #010507;
 	    position: relative;
+	}
+
+	
+
+	.welcome{
+		color: rgb(255, 255, 255);
+	    font-weight: bold;
+	    font-size: 56px;
+	    text-align: left !important;
+	    line-height: 1.1;
+	    margin: 0px;
+	    padding: 30px 0px;
+	    text-transform: uppercase;
+	    font-family: Share, sans-serif !important;
 	}
 	
 	/*#about h2{
@@ -495,11 +525,21 @@ html, body{
 	.solucoes-wrapper{
 		margin-top: 5%;
 	}
+
+	.text-wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+
+	#about-yellow-box{
+        padding: 9% 10% 9% 10%;
+	}
 	
 	#about-wrapper p{
 		width: 48%;
 		text-align: justify;
-		line-height: 22px;
+	    line-height: 25px;
 	}
 
 	#about-wrapper p:first-child{
@@ -508,6 +548,26 @@ html, body{
 	#about-wrapper p.right{
 		float: right;
 		text-align: center;
+	}
+
+	.right-desc{
+	    font-size: 27px;
+	    font-size: 22px;
+	    line-height: normal;
+	    font-weight: 300;
+	    padding-top: 2%;
+	    text-align: right !important;
+	    color: #3a3737;
+	    font-family: Roboto, sans-serif;
+	}
+
+	.cursive-font{
+		font-size: 206%;
+	    padding: 2%;
+	    text-transform: none;
+	    font-weight: normal;
+	    color: rgb(255, 255, 255);
+	    font-family: artely, cursive;
 	}
 
 	.subhead{
@@ -701,7 +761,26 @@ html, body{
 	  }
 	}
 
+	.link-yellow-box a{
+		color: white;
+	}
 
+	.link-yellow-box a:hover{
+		color: #880a0a;
+	}
+
+/*SIZES*/
+	.big-enough{
+	    font-size: 72px;
+	    line-height: 1.1;
+	    margin-top: 0;
+	    color: black;
+	    width: 41% !important;
+	}
+
+	.small-title{
+
+	}
 
 
 
@@ -945,4 +1024,12 @@ html, body{
 
 	.dark-yellow{
 		color: #986324;
+	}
+
+	.off-white{
+
+	}
+
+	.yellow-bg{
+		background-color: rgb(244, 174, 39);
 	}
