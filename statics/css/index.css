@@ -25,17 +25,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html, body{
 	height: 100%;
-	font-family: 'rounded_eleganceregular'
+	font-family: 'Roboto', sans-serif;
+
+
 }
 
-	/*a{
-		color: #00aae6;
+	a{
+		color: white;
 		transition: all .3s ease 0s;
 	}
 
 	a:hover{
-		color: #f28500;
-	}*/
+		color: #720909;
+	}
 
 	h2 {
 		width: 100%;
@@ -436,7 +438,7 @@ html, body{
 		float: left;
 		height: 100px;
 		line-height: 100px;
-		font-family: 'rounded_eleganceregular'
+		font-family: 'Roboto, sans-serif'
 		width: 100px;
 		width: 100px;
 		font-size: 18px;
@@ -503,15 +505,16 @@ html, body{
 	    font-family: Share, sans-serif !important;
 	}
 	
-	/*#about h2{
-		width: 100%;
-		font-size: 40px;
-		box-sizing: border-box;
-		text-transform: bold;
-		color: black;
-		text-align: center;
-		padding: 3% 0px 3% 0;
-	}*/
+	.title-black{
+	    text-align: center;
+	    font-family: Share, sans-serif;
+	    font-weight: bold;
+	    font-size: 65px;
+	}
+
+	.title-black span{
+		color: #900c0c;
+	}
 
 	#about.fixed{
 		margin-top: 100px;
@@ -567,7 +570,11 @@ html, body{
 	    text-transform: none;
 	    font-weight: normal;
 	    color: rgb(255, 255, 255);
-	    font-family: artely, cursive;
+	    font-family: 'artely', cursive;
+	}
+
+	.share-font{
+		font-family: 'Share', sans-serif;
 	}
 
 	.subhead{
@@ -610,12 +617,15 @@ html, body{
 
 	#solutions-wrapper{
 		width: 100%;
-		box-sizing:border-box;
+	    padding-left: 10%;
+	    box-sizing: border-box;
+	    padding-right: 10%;
 	}
 
 	#solutions-wrapper > div{
 		width: 33%;
-		float: left;
+	    float: left;
+	    padding: 2%;
 	}
 
 	.solutions-icon{
@@ -626,7 +636,7 @@ html, body{
 		height: 60px;
 		line-height: 60px;
 		margin-top: 25px;
-		color: #cc9f28;
+		color: #900c0c;
 	}
 
 	#solutions-wrapper > div > p {
@@ -638,12 +648,13 @@ html, body{
 	}
 
 	.solution-title{
-	    width: 100%;
+        width: 100%;
 	    text-align: center;
 	    text-transform: uppercase;
-	    padding: 10px 0 20px 0;
+	    padding: 10px 0 10px 0;
 	    box-sizing: border-box;
 	    font-size: 24px;
+	    font-weight: bold;
 	}
 
 	/*FIM SOLUCOES*/
@@ -1006,7 +1017,7 @@ html, body{
 		color: #999;
 	}
 
-	/*CORES*/
+	/*COLORS*/
 
 
 	.light-red{
@@ -1126,4 +1137,32 @@ html, body{
 		margin-top: 40px;
 		color: #ddd;
 	    line-height: 30px;
+	}
+
+	/*SVG*/
+
+	.polygon-div {
+	    position: relative;
+	    width: 100%;
+	    height: 615px;
+	    background-image: linear-gradient(#ffffff, #f7e3e3);
+	}
+
+	svg {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  height: 100px;
+	}
+
+	@media (max-width: 699px) {
+	  .svg--lg {
+	    display: none;
+	  }
+	}
+
+	@media (min-width: 700px) {
+	  .svg--sm {
+	    display: none;
+	  }
 	}
