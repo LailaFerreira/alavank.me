@@ -1194,37 +1194,45 @@ html, body{
 		color: #f4ae27;
 	}
 
+	/*KNOW MORE SECTION*/
+	#more-wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#more-wrapper div{
+		width: 48%;
+		text-align: justify;
+	    line-height: 25px;
+	}
+
+	#more-wrapper div:first-child{
+		float: left;
+	}
+	#more-wrapper div.right{
+		float: right;
+		text-align: center;
+	}
+
+
 	/*PARTNERS*/
 	#partners-header{
 		width: 100%;
 		height: 264px;
-		background: url('../images/img9.png') no-repeat 50% 50% fixed;
-		background-size: cover;
+	    position: relative;
 	}
 
-	/*RAINBOW TEXT*/
-	  .rainbow-color-change {
-      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 50s; /* Chrome and Safari */
-      text-shadow: 10px 10px 0 #cccccc;
-    }
+	#partners-header > .bg-video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden; /* evita do video passar a altura desejada do .wrap */
+	}
+	#partners-header > .bg-video > video {
+	    width: 100%;
+	}
 
-    @keyframes colorchange
-    {
-      0%   {color: red;}
-      25%  {color: yellow;}
-      50%  {color: blue;}
-      75%  {color: green;}
-      100% {color: red;}
-    }
-
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {color: red;}
-      25%  {color: yellow;}
-      50%  {color: blue;}
-      75%  {color: green;}
-      100% {color: red;}
-    }
-
+	/*TOGGLE BOX*/
