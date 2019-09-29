@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Alavank Consultoria</title>
 
+	<link rel="shortcut icon" href="statics/images/logo.ico" />
 	<link rel="stylesheet" href="statics/css/index.css">
 	<link rel="stylesheet" href="statics/css/ionicons.min.css">
 	<link rel="stylesheet" href="statics/css/nanoscroller.css">
@@ -131,7 +132,7 @@
 					<h1 class="title-black">O que fazemos de <span>melhor</span></h1>
 
 					<div id="solutions-wrapper">
-						<div>
+						<div class="animated fadeInDown slow">
 							<div class="solutions-icon ion-briefcase"></div>
 							<h3 class="solution-title">Desenvolvimento de plano de negócios</h3>
 							<p>
@@ -140,7 +141,7 @@
 								Vivamus eu magna nulla. Donec vitae libero volutpat tellus efficitur ornare a sit amet ipsum.
 							</p>
 						</div>
-						<div>
+						<div class="animated fadeInDown slow">
 							<div class="solutions-icon ion-cash"></div>
 							<h3 class="solution-title">Acessoria em marketing</h3>
 							<p>
@@ -148,7 +149,7 @@
 								Donec gravida non ipsum sit amet mattis. Pellentesque fermentum, nulla nec feugiat gravida, ante magna vestibulum diam, a vestibulum ante nibh non arcu. 
 							</p>
 						</div>
-						<div>
+						<div class="animated fadeInDown slow">
 							<div class="solutions-icon ion-chatboxes"></div>
 							<h3 class="solution-title">Acessoria em gestão de pessoas</h3>
 							<p>
@@ -169,16 +170,17 @@
 			<!-- SECTION FLUXOGRAM -->
 
 			<section id="fluxogram" >
-				<h1 class="title rainbow-color-change">Título fluxograma</h1>
+				<h1 class="title">Título <span>fluxograma</span></h1>
 				<div id="about-wrapper" style="margin: 3% 0;">
-
-					<p class="fluxogram-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae vulputate nisi. Nam ac elementum lectus,
-						sed pharetra nisl. Aliquam pharetra ultrices arcu id fringilla. Suspendisse diam ante, accumsan non massa nec,
-						ullamcorper porttitor felis. Praesent ac purus nisi. Maecenas luctus risus leo, ut lobortis dolor elementum et. 
-						Pellentesque id consectetur libero, sit amet euismod nulla. Integer consectetur libero elit, eget auctor nulla vehicula a.
-						Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-					</p>
+					<div class="fluxogram-div">				
+						<p class="fluxogram-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae vulputate nisi. Nam ac elementum lectus,
+							sed pharetra nisl. Aliquam pharetra ultrices arcu id fringilla. Suspendisse diam ante, accumsan non massa nec,
+							ullamcorper porttitor felis. Praesent ac purus nisi. Maecenas luctus risus leo, ut lobortis dolor elementum et. 
+							Pellentesque id consectetur libero, sit amet euismod nulla. Integer consectetur libero elit, eget auctor nulla vehicula a.
+							Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+						</p>
+					</div>
 					<p class="right">
 						<img src="statics/images/fluxogram.png">
 					</p>
@@ -240,6 +242,57 @@
 					</div>
 					<br />
 				</div>
+				<div class="row3">
+					<div class="row-3-project-container">
+						<div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						     	<div class="flippin-cards-icon ion-stats-bars"></div>
+						     	<div class="flip-desc">Plano de Negócios</div>
+						    </div>
+						    <div class="flip-card-back">
+						      <h1> Análise de Mercado
+								   Análise de Viabilidade
+								   Assessoria em Processos de Abertura</h1> 
+						     
+						    </div>
+						  </div>
+						</div>	
+					</div>
+					<div class="row-3-project-container">
+						<div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						      <div class="flippin-cards-icon ion-person-stalker"></div>
+					     	   <div class="flip-desc">Assessoria em Marketing e WEB</div>
+						    </div>
+						    <div class="flip-card-back">
+						      <h1>Gestão de Redes Sociais
+								 Elaboração de Materiais Gráficos
+								 Criação e Manutenção de Sites</h1> 
+						      
+						    </div>
+						  </div>
+						</div>	
+					</div>
+					<div class="row-3-project-container">
+						<div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						      <div class="flippin-cards-icon ion-clock"></div>
+						     	<div class="flip-desc">Assessoria em Gestão de Pessoas</div>
+						    </div>
+						    <div class="flip-card-back">
+						      <h1>Mapeamento de Perfis e Cargos
+								  Realização de Recrutamento e Seleção
+								  Execução e Planejamento de Capacitações</h1> 
+						      
+						    </div>
+						  </div>
+						</div>	
+					</div>
+					<br />
+				</div>
 
 
 
@@ -248,11 +301,11 @@
 
 			 <section id="partners">
 				<div class="partners-container">
-				<div class="partners-icon ion-ios-people"></div>
+				<div class="partners-icon"><div class="ion-coffee"></div></div>
 				<p class="partners-header">Nossos parceiros</p>
 				<div>
 				<p class="partners-desc">Ainda não temos parceiros :(</p>
-				<p class ="partners-desc">Seja <a href="#contact" href="#">nosso parceiro</a> e descubra uma forma fácil e inovadora de investimento!</p>
+				<p class ="partners-desc">Seja <a href="#contact" href="#contact">nosso parceiro</a> e descubra uma forma fácil e inovadora de investimento!</p>
 				</div>
 				</div>
 			</section>
@@ -261,7 +314,8 @@
 				<div id="contact-header">
 					<h2>Vamos falar de <span>negócios</span>.</h2>
 				</div>
-				<div class="contact-info">
+				<div class="contact-info">		
+
 					<div class="contact-row">
 						<h4>
 							<div class="icon ion-ios-location"></div>
@@ -287,7 +341,7 @@
 							<div class="label">Email</div>
 							<br/>
 						</h4>
-						<span>lorem@ipsum.com <br>lorem@ipsum.com <br> lorem@ipsum.com</span><br/>
+						<span>pedro@alavank.me <br> samara@alavank.me</span><br/>
 					</div>
 					<br/>
 					<div class="contact-row">
@@ -312,7 +366,7 @@
 		 			<textarea id="input-message" cols="30" placeholder="Mensagem"></textarea>
 		 			 <div class="button" id="button-5">
 					    <div id="translate"></div>
-					    <a href="#">Let's Go!</a>
+					    <a href="#">Enviar mensagem</a>
 					  </div>
 		 			<div id="returnMessage">&nbsp;</div>
 					<br/>
