@@ -133,7 +133,6 @@ html, body{
 
 	.btn{
 	    display: inline-block;
-	    font-family: montserrat-medium,sans-serif;
 	    font-size: 1.2rem;
 	    text-transform: uppercase;
 	    letter-spacing: .3rem;
@@ -886,9 +885,9 @@ html, body{
 
 
 
-/*SECTION PARTNERS*/
+/*SECTION ACTUATION*/
 
-	#partners{
+	#actuation{
 		background-color: #f6f5f5;
 	    padding-bottom: 80px;
 	    width: 100%;
@@ -896,11 +895,11 @@ html, body{
 	    padding-bottom: 30px;
 	}
 	
-	.partners-container{
+	.actuation-container{
 		margin-bottom: 80px;
 		margin-top: 80px;	}
 
-	.partners-header{
+	.actuation-header{
 		font-size: 35px;
 		color: black;
 		text-transform: uppercase; 
@@ -908,12 +907,12 @@ html, body{
 		margin-bottom:50px; 
 	}
 
-	.partners-desc{
+	.actuation-desc{
 		font-size: 25px;
 		color: #696969;
 	}
 	
-	.partners-icon{
+	.actuation-icon{
 		font-size: 35px;
 	    background-color: #00aae6;
 	    height: 40px;
@@ -973,6 +972,46 @@ html, body{
 		float: left;
 	}
 
+
+/*SECTION PARTNERS*/
+
+	#partners{
+		background-color: #ffffff;
+	    padding-bottom: 80px;
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+		background: url(../images/mao-contact-bg.jpg) no-repeat 50% 50% fixed;
+	}
+	
+	.partners-container{
+		margin-bottom: 80px;
+		margin-top: 80px;	}
+
+	.partners-header{
+		font-size: 35px;
+		color: black;
+		text-transform: uppercase; 
+		margin-top: 50px;
+		margin-bottom:50px; 
+	}
+
+	.partners-desc{
+		font-size: 25px;
+		color: #696969;
+	}
+	
+	.partners-icon{
+		font-size: 35px;
+	    background-color: #00aae6;
+	    height: 40px;
+	    width: 41px;
+	    margin: 0 auto;
+	    border-radius: 50%;
+
+	}
+	
 	
 
 	/*COLORS*/
@@ -1336,4 +1375,173 @@ html, body{
 
 	.flip-desc{
 		font-size: 23px;
+	}
+
+	/*CONTACT*/
+ 
+	#contact-header{
+		width: 100%;
+		background: url('../images/img1.jpg') no-repeat center center fixed;
+		margin-bottom: 100px;
+		color: #fff;
+		height: 206px;
+	    background-size: cover;
+
+	}
+
+	#contact-header h2{
+		width: 100%;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 56px;
+	    text-transform: uppercase;
+	    font-family: Share, sans-serif;
+	    padding: 80px 0 40px 0;
+	    box-sizing: border-box;
+	    color: white;
+	    text-shadow: 1px 1px #cacaca;
+	}
+
+	#contact-header h2 span{
+		border: 3px solid rgb(244, 174, 39);
+    	padding: 10px;
+	}
+
+	.contact-info{
+		float: left;
+		width: 33%;
+		margin-left: 15%;
+		margin-bottom: 150px;
+	}
+
+	.contact-form {
+		float: right;
+		width: 33%;
+		margin-right: 15%;
+
+	}
+
+	.contact-form textarea,
+	.contact-form input{
+		width: 100%;
+		height: 40px;
+		border: 1px solid #cacaca;
+		border-radius: 5px;
+		padding-left: 10px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+	}
+
+	.contact-form textarea{
+		height: 102px;
+		resize: none;
+	}
+
+	.contact-row h4{
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 15px;
+		width: 140px;
+		line-height: 30px;
+
+	}	
+
+	.contact-row > span{
+		float: left;
+		display: block;
+		margin-left: 20px;
+		line-height: 19px;
+
+	}
+
+	.contact-row{
+		margin-bottom: 20px;
+	}
+
+	.contact-row .label{
+		float: left;
+		line-height: 25px;
+		height: 25px;
+
+	}
+	 
+	.contact-row .icon{
+		font-size: 25px;
+		font-family: 'ionicons';
+		text-align: center;
+		height: 25px;
+		line-height: 25px;
+		color: #f28500;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.contact-form .btn{
+		margin-top: 20px;
+	}
+
+	.contact-form #returnMessage{
+		width: 100%;
+		text-align: center;
+		opacity: 0;
+		transition: all .3s ease 0s;
+		margin-top: 20px;
+	}
+
+	.contact-form #returnMessage.active{
+		opacity: 1;
+	}
+
+	.button {
+	  display: inline-flex;
+	  height: 40px;
+	  width: 150px;
+	  border: 2px solid #BFC0C0;
+	  margin: 20px 20px 20px 20px;
+	  color: #CACACA;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  font-size: .8em;
+	  letter-spacing: 1.5px;
+	  align-items: center;
+	  justify-content: center;
+	  overflow: hidden;
+	}
+
+	.button a {
+	  color: #CACACA;
+	  text-decoration: none;
+	  letter-spacing: 1px;
+	}
+
+	#button-5 {
+	  position: relative;
+	  overflow: hidden;
+	  cursor: pointer;
+	  margin: 2% 0 0 38%;
+	}
+
+	#button-5 a {
+	  position: relative;
+	  transition: all .45s ease-Out;
+	}
+
+	#translate {
+	  transform: rotate(50deg);
+	  width: 100%;
+	  height: 250%;
+	  left: -200px;
+	  top: -30px;
+	  background: #CC9F28;
+	  position: absolute;
+	  transition: all .3s ease-Out;
+	}
+
+	#button-5:hover #translate {
+	  left: 0;
+	}
+
+	#button-5:hover a {
+	  color: black;
 	}
