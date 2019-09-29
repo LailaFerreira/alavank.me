@@ -1427,13 +1427,14 @@ html, body{
 		float: left;
 		width: 33%;
 		margin-left: 15%;
-		margin-bottom: 150px;
+		margin-bottom: 25px;
 	}
 
 	.contact-form {
 		float: right;
 		width: 33%;
 		margin-right: 15%;
+		margin-top: 2%;
 
 	}
 
@@ -1449,7 +1450,7 @@ html, body{
 	}
 
 	.contact-form textarea{
-		height: 102px;
+		height: 153px;
 		resize: none;
 	}
 
@@ -1459,17 +1460,30 @@ html, body{
 		font-weight: bold;
 		font-size: 15px;
 		width: 140px;
-		line-height: 30px;
 
 	}	
 
+	.separador-contact{
+		width: 117px;
+    float: left;
+    height: -3px;
+    color: red;
+    margin-bottom: 21px;
+	}
+	.contact-row p{
+		color: black;
+		font-size: 30px;
+	    width: 60%;
+	    font-weight: bold;
+		}
+
+
 	.contact-row > span{
 		float: left;
-		display: block;
-		margin-left: 20px;
-		line-height: 19px;
-
-	}
+	    display: block;
+	    margin: 8px 0 0 -63px;
+	    color: #969696;
+		}
 
 	.contact-row{
 		margin-bottom: 20px;
@@ -1512,10 +1526,10 @@ html, body{
 	.button {
 	  display: inline-flex;
 	  height: 40px;
-	  width: 150px;
+	  width: 197px;
 	  border: 2px solid #f28500;
 	  margin: 20px 20px 20px 20px;
-	  color: #CACACA;
+	  color: #969696;
 	  text-transform: uppercase;
 	  text-decoration: none;
 	  font-size: .8em;
@@ -1526,7 +1540,7 @@ html, body{
 	}
 
 	.button a {
-	  color: #CACACA;
+	  color: black;
 	  text-decoration: none;
 	  letter-spacing: 1px;
 	}
@@ -1535,7 +1549,7 @@ html, body{
 	  position: relative;
 	  overflow: hidden;
 	  cursor: pointer;
-	  margin: 2% 0 0 38%;
+	  margin: 2% 0 0 32%;
 	}
 
 	#button-5 a {
@@ -1562,17 +1576,11 @@ html, body{
 	  color: black;
 	}
 
-	/*VIDEO*/
-
-	.video{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-}
+	.vector{
+		width: 45px;
+	}
 	
+	.vector-c{
+		width: 36px;
+		margin-bottom: -24px;
+	}

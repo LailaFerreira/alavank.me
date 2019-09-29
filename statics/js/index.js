@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 
 
-	$(".contact-form button").click(function(e){
+	$(".contact-form .button").click(function(e){
 		e.stopPropagation();
 		e.preventDefault();
 
