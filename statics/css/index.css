@@ -454,8 +454,7 @@ html, body{
 		px;
 		float:left;
 		position: absolute;
-		left: 50%;
-		margin-left: -460px;
+		left: 33%;
 	}
 
 	nav li#menu-logo{
@@ -481,10 +480,10 @@ html, body{
 
 	#about{
 		width: 100%;
-	    margin-top: 6%;
+	    padding-top: 6%;
 	    height: auto;
-	    margin-bottom: 6%;
-	    /*background: url('../images/hello.jpg') no-repeat 50% 50%;*/
+	    padding-bottom: 6%;
+	    background: url('../images/mao-contact-bg.jpg') fixed no-repeat 50% 50%;
 	    background-color: white;
 	    color: #010507;
 	    position: relative;
@@ -513,10 +512,6 @@ html, body{
 
 	.title-black span{
 		color: #900c0c;
-	}
-
-	#about.fixed{
-		margin-top: 100px;
 	}
 
 	.about-wrapper{
@@ -587,6 +582,7 @@ html, body{
 	    margin-top: 0;
 	    margin-bottom: 0;
 	    text-align: center;
+	    padding: 4% 4% 1% 4%;
 	}
 
 	.subhead-text{
@@ -668,9 +664,10 @@ html, body{
 	}
 
 	.text-centralized{
-        margin: 4% 10% 7% 10%;
+        padding: 4% 10% 7% 10%;
 	    text-align: center;
 	    line-height: 24px;
+	    font-size: 23px;
 	}
 
 	#values-wrapper{
@@ -794,6 +791,7 @@ html, body{
 	    margin-top: 0;
 	    color: black;
 	    width: 41% !important;
+		background: url('../images/bg2.jpg') no-repeat 50% 50%;
 	}
 
 	.small-title{
@@ -835,12 +833,12 @@ html, body{
 	
 	.services-row4 
 	.services-container{
-	width: 25%;	
+		width: 15%;
+	    padding: 1% 1% 1% 17%;
 	}
 
 	.services-container{
 		width: 100%;
-		padding: 50px 0;
 		float: left;
 	}
 
@@ -879,54 +877,6 @@ html, body{
 	.services-desc:first-child{
 		margin-left: 0;
 	}
-
-
-
-
-
-
-/*SECTION ACTUATION*/
-
-	#actuation{
-		background-color: #f6f5f5;
-	    padding-bottom: 80px;
-	    width: 100%;
-	    text-align: center;
-	    padding-bottom: 50px;
-	}
-	
-	.actuation-container{
-		margin-bottom: 80px;
-		margin-top: 80px;	}
-
-	.actuation-header{
-		font-size: 35px;
-		color: black;
-		text-transform: uppercase; 
-		margin-top: 50px;
-		margin-bottom:50px; 
-	}
-
-	.actuation-desc{
-		font-size: 25px;
-		color: #696969;
-	}
-	
-	.actuation-icon{
-		font-size: 35px;
-	    background-color: #00aae6;
-	    height: 40px;
-	    width: 41px;
-	    margin: 0 auto;
-	    border-radius: 50%;
-
-	}
-	
-
-
-
-
-
 
 /* SECTION PROJETCS */
 	#projects{
@@ -1241,16 +1191,47 @@ html, body{
 	}
 
 	/*ACTUATION*/
-	#actuation-header{
-		width: 100%;
-		background: url('../images/img8.jpg') no-repeat center center fixed;
-		margin-bottom: 20px;
-		color: #fff;
-		height: 206px;
-	    background-size: cover;
+
+
+	#actuation{
+		background-color: #ffffff;
+	    padding-bottom: 80px;
+	    width: 100%;
+	    text-align: center;
+	    padding-bottom: 50px;
+	}
+	
+	.actuation-container{
+		margin-bottom: 80px;
+		margin-top: 80px;	}
+
+	.actuation-header{
+		font-size: 35px;
+		color: black;
+		text-transform: uppercase; 
+		margin-top: 50px;
+		margin-bottom:50px; 
 	}
 
-	#actuation-header h2{
+	
+
+	.actuation-desc{
+		font-size: 25px;
+		color: #696969;
+	}
+	
+	.actuation-icon{
+		font-size: 35px;
+	    background-color: #00aae6;
+	    height: 40px;
+	    width: 41px;
+	    margin: 0 auto;
+	    border-radius: 50%;
+
+	}
+	
+
+	#actuation h2{
 		width: 100%;
 	    text-align: center;
 	    font-weight: bold;
@@ -1259,7 +1240,7 @@ html, body{
 	    font-family: Share, sans-serif;
 	    padding: 80px 0 40px 0;
 	    box-sizing: border-box;
-	    color: white;
+	    color: #3a3737;
 	    text-shadow: 1px 1px #cacaca;
 	} 
 
@@ -1584,3 +1565,4 @@ html, body{
 		width: 36px;
 		margin-bottom: -24px;
 	}
+
