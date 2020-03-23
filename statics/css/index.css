@@ -317,7 +317,7 @@ html, body{
 		font-size: 24px;
 	}*/
 
-	br{
+	br {
 	clear: both;
 	}
 
@@ -460,7 +460,7 @@ html, body{
 	nav li#menu-logo{
 		height: 100px;
 		width: 200px;
-		background: url('../images/mini.png') no-repeat 50% 50%;
+		background: url('../images/menu-logo.png') no-repeat 50% 50%;
 	}
 
 	nav li a{
@@ -530,7 +530,7 @@ html, body{
 
 
 	#about-yellow-box{
-        padding: 9% 10% 9% 10%;
+        padding: 5% 10% 5% 10%;
 	}
 	
 	#about-wrapper p{
@@ -549,8 +549,23 @@ html, body{
 
 
 
-	.right-desc{
+	.right-desc-gestao-eficiente{
 	    font-size: 27px;
+	    font-size: 22px;
+	    line-height: normal;
+	    font-weight: 300;
+	    padding: 4% 11% 4% 2%;
+	    text-align: right !important;
+	    color: #3a3737;
+	    font-family: Roboto, sans-serif;
+/*	    BACKGROUND COM PATTERN*/
+	    background-image: url(../images/texture6.png);
+ 		background-repeat:repeat;
+
+	}
+
+	.right-desc{
+		font-size: 27px;
 	    font-size: 22px;
 	    line-height: normal;
 	    font-weight: 300;
@@ -558,6 +573,19 @@ html, body{
 	    text-align: right !important;
 	    color: #3a3737;
 	    font-family: Roboto, sans-serif;
+	}
+
+	.left-desc{
+        font-size: 27px;
+	    font-size: 22px;
+	    line-height: normal;
+	    font-weight: 300;
+	    padding: 4% 2% 4% 11%;
+	    text-align: left !important;
+	    color: #3a3737;
+	    font-family: Roboto, sans-serif;
+	    background-image: url(../images/texture5.png);
+ 		background-repeat:repeat;
 	}
 
 	.cursive-font{
@@ -791,8 +819,8 @@ html, body{
 	    margin-top: 0;
 	    color: black;
 	    width: 41% !important;
-		background: url('../images/bg2.jpg') no-repeat 50% 50%;
-	}
+/*		background: url('../images/bg2.jpg') no-repeat 50% 50%;
+*/	}
 
 	.small-title{
 
@@ -1078,8 +1106,7 @@ html, body{
 	.footer {
 	    background: url(../images/footer.png) repeat;
 	    width: 100%;
-	    height: 273px;
-	    padding-top: 50px;
+	    height: 176px;
 	}
 
 	.footer img{
@@ -1091,7 +1118,6 @@ html, body{
 	.info-footer{
 		width: 100%;
 		text-align: center;
-		margin-top: 40px;
 		color: #ddd;
 	    line-height: 30px;
 	}
@@ -1127,8 +1153,9 @@ html, body{
 	/*FLUXOGRAM-SECTION*/
 
 	.fluxogram-text{
-		margin-top: 8%;
+		margin-top: 4%;
     	margin-left: 4%;
+    	font-size: 23px;
 	}
 
 	.title{
@@ -1356,7 +1383,12 @@ html, body{
 	}
 
 	.flip-card-back h1{
-	    padding: 35% 4% 0 4%;
+	    padding: 24% 4% 0 4%;
+	}
+
+	.flip-card-back-special h1{
+	    padding: 30% 4% 0 4%;
+	    transform: rotateY(180deg);
 	}
 
 	.flippin-cards-icon{
@@ -1386,6 +1418,64 @@ html, body{
 
 	}
 
+
+	.contact-wrapper{
+		background-color: #fafafa;
+	}
+
+
+	#gestao-eficiente-header{
+		width: 100%;
+		background: url('../images/img2b.jpg') no-repeat center center fixed;
+		color: #fff;
+		height: 206px;
+	    background-size: cover;
+	}
+
+	#gestao-eficiente-header h2 span{
+		border: 3px solid #720909;
+    	padding: 10px;
+	}
+
+	#gestao-eficiente-header h2{
+		width: 100%;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 56px;
+	    text-transform: uppercase;
+	    font-family: Share, sans-serif;
+	    padding: 80px 0 40px 0;
+	    box-sizing: border-box;
+	    color: white;
+	    text-shadow: 1px 1px #cacaca;
+	}
+
+	#projetos-otimizadores-header{
+		width: 100%;
+		background: url('../images/img3.jpg') no-repeat center center fixed;
+		color: #fff;
+		height: 206px;
+	    background-size: cover;
+	}
+
+	#projetos-otimizadores h2{
+		width: 100%;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 56px;
+	    text-transform: uppercase;
+	    font-family: Share, sans-serif;
+	    padding: 80px 0 40px 0;
+	    box-sizing: border-box;
+	    color: white;
+	    text-shadow: 1px 1px #cacaca;
+	}
+
+	#projetos-otimizadores-header h2 span{
+		border: 3px solid rgb(244, 174, 39) ;
+    	padding: 10px;
+	}
+
 	#contact-header h2{
 		width: 100%;
 	    text-align: center;
@@ -1400,7 +1490,7 @@ html, body{
 	}
 
 	#contact-header h2 span{
-		border: 3px solid rgb(244, 174, 39);
+		border: 3px solid #720909;
     	padding: 10px;
 	}
 
@@ -1467,7 +1557,7 @@ html, body{
 		}
 
 	.contact-row{
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	.contact-row .label{
@@ -1566,3 +1656,77 @@ html, body{
 		margin-bottom: -24px;
 	}
 
+ .left-content{
+	float: left; 
+	width: 50%;
+	height: 573px;
+ }
+
+ .right-content{
+ 	float: left; 
+	width: 50%;
+	height: auto;
+ }
+
+ .clear{
+ 	clear: both;
+ }
+
+.bold{
+	font-weight: bold;
+}
+
+.span-spotlight{
+	font-weight: bold;
+	color: #CC9F28;
+}
+
+.span-spotlight-red{
+	font-weight: bold;
+	color: #720909;
+}
+
+.gerenciamento-title{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 27px;
+}
+
+.floating-image{
+	position: relative;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    margin-left: 90%;
+    margin-top: -25%;
+}
+.floating-image-2{
+    position: relative;
+    top: 0px;
+    left: -41px;
+    width: 43%;
+    margin-left: 90%;
+    margin-top: -25%;
+}
+
+.social-media a{
+	color: #969696;
+}
+
+.social-media a:hover{
+	color: black;
+}
+
+
+/*CHEESE BLOCK*/
+.left-content-cheesy{
+	float: left; 
+	width: 50%;
+	height: 573px;
+ }
+
+ .right-content-cheesy{
+ 	float: left; 
+	width: 50%;
+	height: auto;
+ }
