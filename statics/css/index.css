@@ -1730,3 +1730,14 @@ html, body{
 	width: 50%;
 	height: auto;
  }
+
+ .melhoria-continua{
+ 	font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px #cacaca;
+    color: rgb(244, 174, 39);
+ }
+
+ 
